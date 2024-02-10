@@ -3,7 +3,7 @@ header{
     text-align: center;
     background-color: darkblue;
     box-shadow: 10px 5px 5px black;
-    padding: 0.5em;
+    padding: 2em;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -15,6 +15,7 @@ h1{
 li a{
     color: red;
     margin: 2em;
+    text-decoration: none;
     
 }
 

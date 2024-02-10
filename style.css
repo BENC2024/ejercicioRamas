@@ -1,0 +1,12 @@
+header{
+    text-align: center;
+    padding: 1em 0;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: red;
+}

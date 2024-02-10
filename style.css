@@ -1,13 +1,28 @@
 header{
+    width: 100%;
     text-align: center;
-    padding: 1em 0;
-    display: flex;
+    background-color: darkblue;
+    box-shadow: 10px 5px 5px black;
+    padding: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-a{
+h1{ 
+    padding: 0.2em;
+    color: white;
+}
+
+li a{
     color: red;
+    margin: 2em;
+    
 }
 
 h1:hover{
     color: red;
+}
+
+a:hover{
+    color: green;
+    text-shadow: 10px 5px 5px black;;
 }

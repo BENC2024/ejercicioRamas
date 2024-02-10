@@ -1,8 +1,16 @@
-.container{
+div{
     text-align: center;
-    padding: 2em;
+    padding: 2em; 
+    background-color:antiquewhite ;
+}
+
+#container{
+    text-align: center;
+    padding: 2em; 
+    background-color:antiquewhite ;
 }
 
 div:hover{
     color: blue;
+    text-shadow:  gold 1px 0 10px;
 }

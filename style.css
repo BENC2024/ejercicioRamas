@@ -1,32 +1,40 @@
 *{
-    background-image: url('./frozen-bubble-1943224_1280.jpeg');
+    /* background-image: url('./frozen-bubble-1943224_1280.jpeg'); */
+    background-image: url('./dc6but6-a03d853d-502b-47e1-913f-55738c886211.gif');
     background-color: transparent;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
 div{
     text-align: center;
     padding: 2em; 
-    background-color:antiquewhite ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
 }
 
-#container{
-    text-align: center;
-    padding: 2em; 
-    background-color:antiquewhite ;
+.container{
+    color: white;
+    border-radius: 1em;
+    box-shadow: inset 0px 0px 15px 10px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: inset 0px 0px 15px 10px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: inset 0px 0px 15px 10px rgba(255, 255, 255, 0.5);
+
 }
 
 div:hover{
-    color: blue;
-    text-shadow:  gold 1px 0 10px;
+    text-shadow:  white 1px 0 10px;
 }
 header{
     width: 100%;
-    text-align: center;
+    position: relative;
     background-color: darkblue;
-    box-shadow: 10px 5px 5px black;
+    text-align: center;
     padding: 2em;
+    text-shadow: 1px 3px 3px white;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -47,26 +55,31 @@ h1:hover{
 }
 
 a:hover{
-    color: green;
+    color: white;
     text-shadow: 10px 5px 5px black;
 }
 
 footer{
-    background-color: aquamarine;
     bottom: 0%;
-    padding: 0.2em;
+    padding: 1em;
     text-align: center;
+    font-size: 1.5em;
     box-shadow: inset;
+    position: relative;
+    box-shadow: inset 0px 0px 15px 10px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: inset 0px 0px 15px 10px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: inset 0px 0px 15px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 1em 1em 0 0;
 }
 
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2em;
     font-style: italic;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px white;
     cursor:pointer
 }
 
 p:hover{
-    color: gray
+    color: whitesmoke
 }
